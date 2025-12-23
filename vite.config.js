@@ -27,8 +27,10 @@ export default defineConfig({
             return 'vendor'
           }
         }
-      }
+      },
+      // optional but safer on Vercel
+      external: []
     }
   }
-  // remove optimizeDeps.exclude completely
+  // ✅ Remove optimizeDeps.exclude completely
 })
