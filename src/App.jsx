@@ -9,8 +9,9 @@ import './App.css';
 emailjs.init('YOUR_PUBLIC_KEY');
 
 // =============== COMPONENT IMPORTS ===============
-const ThreeScene = React.lazy(() => import('./components/ThreeScene'));
-const ARViewer = React.lazy(() => import('./components/ARViewer'));
+const ThreeScene = React.lazy(() => import("./components/ThreeScene.jsx"));
+const ARViewer  = React.lazy(() => import("./components/ARViewer.jsx"));
+
 
 // =============== NAVBAR ===============
 function Navbar() {
